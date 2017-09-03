@@ -98,7 +98,7 @@ img {
 }
 
 .shop-options {
-    display: flex;   
+    display: flex;
     padding-top: 50px;
 }
 
@@ -317,16 +317,16 @@ img {
   display: block;
 }
 
-.overlay img { 
-  position: relative; 
-  width: 100%; 
+.overlay img {
+  position: relative;
+  width: 100%;
   opacity: .7;
 }
 
-.overlay h1 { 
-   position: absolute; 
-   bottom: 20px; 
-   left: 40px; 
+.overlay h1 {
+   position: absolute;
+   bottom: 20px;
+   left: 40px;
    color: white;
 }
 
@@ -352,6 +352,7 @@ img {
   margin: 40px auto 40px auto;
   display: flex;
   flex-direction: row;
+	min-height:50vh;
 }
 
 #main-title {
