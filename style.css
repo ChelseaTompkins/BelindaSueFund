@@ -59,7 +59,6 @@ img {
     word-spacing: 3px;
     line-height: 150%;
     padding: 40px 40px 40px 40px;
-    min-height:50vh;
 }
 
 .quote {
@@ -67,10 +66,6 @@ img {
 }
 
 /* News */
-
-.news {
-  margin-top: 40px;
-}
 
 .news a{
     text-decoration: none;
@@ -131,12 +126,13 @@ form textarea {
     display: flex;
     flex-direction: column;
     padding: 15px 5px 50px 10px;
-
+		box-shadow: 0px 1000px 0px 1000px #38a5e0;
     background: #1c7db2;
     background: -moz-linear-gradient(top, #1c7db2 0%, #38a5e0 100%);
     background: -webkit-linear-gradient(top, #1c7db2 0%,#38a5e0 100%);
     background: linear-gradient(to bottom, #1c7db2 0%,#38a5e0 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c7db2', endColorstr='#38a5e0',GradientType=0 );
+
 
 }
 
@@ -352,7 +348,6 @@ img {
   margin: 40px auto 40px auto;
   display: flex;
   flex-direction: row;
-	min-height:50vh;
 }
 
 #main-title {
